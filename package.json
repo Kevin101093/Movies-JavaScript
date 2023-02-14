@@ -1,0 +1,20 @@
+{
+  "name": "movies-javascript",
+  "version": "1.0.0",
+  "description": "Página web para mostrar peliculas.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin101093/Movies-JavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kevin101093/Movies-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Kevin101093/Movies-JavaScript#readme"
+}
