@@ -176,3 +176,57 @@ footer {
 .inactive{
     display: none;
 }
+
+/* Trending */
+.trendingPreview-header{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.trendingPreview-btn{
+  border-radius: 8px;
+  height: 32px;
+  width: 72px;
+}
+.trendingPreview-movieList{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  height: 241px;
+  padding-left: 24px;
+  padding-bottom: 16px;
+}
+.movie-img{
+  height: 225px;
+  min-height: 225px;
+  max-height: 225px;
+  width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+}
+/* Movie Detail */
+.movie-container--loading {
+  width: 125px;
+  min-width: 125px;
+  max-width: 125px;
+  height: 187.5px;
+  min-height: 187.5px;
+  max-height: 187.5px;
+}
+.movie-img{
+  width: 125px;
+  min-width: 125px;
+  max-width: 125px;
+  height: 187.5px;
+  min-height: 187.5px;
+  max-height: 187.5px;
+}
+/* Generic List (search, trending & category) */
+.movie-img{
+  width: 125px;
+  min-width: 125px;
+  max-width: 125px;
+  height: 187.5px;
+  min-height: 187.5px;
+  max-height: 187.5px;
+}
