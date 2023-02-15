@@ -14,46 +14,81 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-   <header id="header" class="header-container">
-    <span class="header-arrow inactive" >&lt;</span>
-    <h1 class="header-title">KevinMovies</h1>
-    <h1 class="header-title inactive">Acción</h1>
-    <form id="searchForm" class="header-searchForm">
-        <input type="text" placeholder="Vengadores">
+    <header id="header" class="header-container">
+      <span class="header-arrow inactive">&lt;</span>
+      <h1 class="header-title">KevinMovies</h1>
+      <h1 class="header-title inactive">Acción</h1>
+      <form id="searchForm" class="header-searchForm">
+        <input type="text" placeholder="Vengadores" />
         <button id="searchBtn">🔍</button>
-    </form>
-   </header>
-   <section id="trendingPreview" class="trendingPreview-container">
-     <div class="trendingPreview-header">
-      <h2>Tendencias</h2>
-      <button class="trendingPreview-btn">Ver más</button>
-     </div>
-     <article class="trendingPreview-movieList">
-          <!-- <div class="movie-container movie-container--loading"></div>
+      </form>
+    </header>
+    <section id="trendingPreview" class="trendingPreview-container">
+      <div class="trendingPreview-header">
+        <h2>Tendencias</h2>
+        <button class="trendingPreview-btn">Ver más</button>
+      </div>
+      <article class="trendingPreview-movieList">
+        <!-- <div class="movie-container movie-container--loading"></div>
           <div class="movie-container movie-container--loading"></div>
           <div class="movie-container movie-container--loading"></div> -->
-          <div class="movie-container">
-            <img src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg" class="movie-img" alt="Nombre de la película">
-          </div>
-     </article>
-     <article class="categoriesPreview-list">
-       <div class="category-container">
-        <h3 id="id28" class="category-title">Romance</h3>
-       </div>
-       <div class="category-container">
-        <h3 id="id28" class="category-title">Drama</h3>
-       </div>
-       <div class="category-container">
-        <h3 id="id28" class="category-title">Acción</h3>
-       </div>
-     </article>
-   </section>
-   <section id="genericList" class="genericList-container inactive">
-    <!-- <div class="movie-container movie-container--loading"></div>
+        <div class="movie-container">
+          <img
+            src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+            class="movie-img"
+            alt="Nombre de la película"
+          />
+        </div>
+      </article>
+      <article class="categoriesPreview-list">
+        <div class="category-container">
+          <h3 id="id28" class="category-title">Romance</h3>
+        </div>
+        <div class="category-container">
+          <h3 id="id28" class="category-title">Drama</h3>
+        </div>
+        <div class="category-container">
+          <h3 id="id28" class="category-title">Acción</h3>
+        </div>
+      </article>
+    </section>
+    <section id="genericList" class="genericList-container inactive">
+      <!-- <div class="movie-container movie-container--loading"></div>
     <div class="movie-container movie-container--loading"></div>
     <div class="movie-container movie-container--loading"></div> -->
-   </section>
-   <section></section>
+      <div class="movie-container">
+        <img
+          src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+          class="movie-img"
+          alt="Nombre de la película"
+        />
+      </div>
+      <div class="movie-container">
+        <img
+          src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+          class="movie-img"
+          alt="Nombre de la película"
+        />
+      </div>
+
+      <div class="movie-container">
+        <img
+          src="https://image.tmdb.org/t/p/w300/adOzdWS35KAo21r9R4BuFCkLer6.jpg"
+          class="movie-img"
+          alt="Nombre de la película"
+        />
+      </div>
+    </section>
+    <section id="categoriesPreview" class="categoriesPreview-container">
+      <h2 class="categoriesPreview-title">Categorías</h2>
+      <article class="categoriesPreview-list">
+        <div class="category-container category-container--loading"></div>
+        <div class="category-container category-container--loading"></div>
+        <div class="category-container category-container--loading"></div>
+      </article>
+    </section>
+    </section>
+    <section></section>
     <script src="./js/main.js"></script>
   </body>
 </html>
