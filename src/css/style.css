@@ -204,6 +204,27 @@ footer {
   min-width: 150px;
   max-width: 150px;
 }
+/* Categories */
+.category-container{
+  width: 45%;
+}
+.category-title {
+  margin-bottom: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.category-title::before {
+  content: '••••';
+  color: transparent;
+  /* TODO: cambiar color por ID de la categoría */
+  background-color: var(--idColor);
+  border-radius: 8px;
+  margin-right: 8px;
+  width: 8px;
+  height: 8px;
+}
 /* Movie Detail */
 .movie-container--loading {
   width: 125px;
@@ -222,7 +243,14 @@ footer {
   max-height: 187.5px;
 }
 /* Generic List (search, trending & category) */
-.movie-img{
+.genericList-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 32px 24px;
+}
+.genericList-container .movie-img{
   width: 125px;
   min-width: 125px;
   max-width: 125px;
