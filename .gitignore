@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Llave API 
+src/js/secrets.js
